@@ -1,4 +1,4 @@
-akh 'popclip-beta' do
+cask 'popclip-beta' do
   version '2019.9'
   sha256 '9aed3549373016db78ebda6ea00e9f597142f8f60928019d46ddf0a2b1d162f7'
 
