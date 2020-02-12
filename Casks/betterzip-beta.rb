@@ -1,8 +1,8 @@
 cask 'betterzip-beta' do
-  version '4.2.6 (1583)'
+  version '4.2.6-1583'
   sha256 '87cd468569633628c983e63c558aa3af4ead105f6fb00edc1ed178d339122b0b'
 
-  url "https://macitbetter.com/dl/BetterZip-4.2.6.zip"
+  url "https://macitbetter.com/dl/BetterZip-#{version.major_minor_patch}.zip"
   name 'BetterZip'
   homepage 'https://macitbetter.com/'
 
@@ -19,5 +19,7 @@ cask 'betterzip-beta' do
     '~/Library/Group Containers/79RR9LPM2N.group.com.macitbetter.betterzip-setapp',
     '~/Library/Preferences/com.macitbetter.betterzip.plist',
     '~/Library/Saved Application State/com.macitbetter.betterzip.savedState',
+    '~/Library/Services/Compress with BetterZip.workflow',
+    '~/Library/Services/Extract with BetterZip.workflow'
   ]
 end
