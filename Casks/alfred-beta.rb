@@ -2,7 +2,7 @@ cask 'alfred-beta' do
   version '4.0.8-1135'
   sha256 'f26c60496d5272ad52be6fe2d9dbee80bd2a282bb3144a0713ffd40b7447d438'
 
-  url "https://cachefly.alfredapp.com/Alfred_#{version.hypens_to_underscores}.dmg"
+  url "https://cachefly.alfredapp.com/Alfred_#{version.hyphens_to_underscores}.dmg"
   name 'Alfred'
   homepage 'https://www.alfredapp.com/'
 
