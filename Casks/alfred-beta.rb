@@ -1,6 +1,6 @@
 cask 'alfred-beta' do
-  version '4.0.9-1142'
-  sha256 'fe0cf0e82d35ae6162da7579226421cc56c8c0350f0d2dd53d36f91a5eb67978'
+  version '4.0.9-1143'
+  sha256 'e10e98eac592161db2a050433d5b85cfd96a6ebde339ce11572494dd10204446'
 
   url "https://cachefly.alfredapp.com/Alfred_#{version.hyphens_to_underscores}.tar.gz"
   appcast "https://www.alfredapp.com/app/update#{version.major}/prerelease.xml"
