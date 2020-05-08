@@ -1,6 +1,6 @@
 cask 'bartender-beta' do
-  version '3.1.20'
-  sha256 '6d71c581f7d993173dca3c06bbad888d162d7f85c3f1235ee7170b7b999d033b'
+  version '3.1.22'
+  sha256 'b66056eb8e44f63fd8421e28ed2492ad175e1f50a228f6ce5790f60915ebed8e'
 
   url "https://macbartender.com/B2/updates/#{version.dots_to_hyphens}/Bartender%20#{version.major}.zip",
       referer: 'https://www.macbartender.com'
