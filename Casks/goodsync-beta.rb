@@ -1,10 +1,10 @@
-cask 'goodsync-beta' do
-  version '11.0.1.1'
-  sha256 '5cd2cddd067be98220290db5f67b1be55b6cb357e37ede50d82df946d10ad32a'
+cask 'goodsync10' do
+  version '10.11.9'
+  sha256 '7cd2fc925c7fa6f2359c54640d55803fe099f9984622a7bfd462bae7c36331bf'
 
   url "https://www.goodsync.com/download/goodsync-v#{version.major}-mac.dmg"
   name 'GoodSync'
-  homepage 'https://www.goodsync.com/'
+  homepage 'https://www.goodsync.com/download-10-mac'
   
   app 'GoodSync.app'
 end
