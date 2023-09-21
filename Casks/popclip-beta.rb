@@ -1,6 +1,6 @@
 cask 'popclip-beta' do
-  version '4197'
-  sha256 '12c152a59853ce09a705b5fa14dc59f3181ab9132be51284e0e63c134872f161'
+  version '4246'
+  sha256 'eeca242874e9f931f39fa9ef1ad9c75d60107b750266b1c7578badbfe864782d'
 
   url "https://pilotmoon.com/downloads/beta/PopClip-build-#{version}.zip"
   name 'PopClip'
