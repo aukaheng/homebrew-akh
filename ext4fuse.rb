@@ -6,6 +6,8 @@ class Ext4fuse < Formula
 
   env do
     ENV.append_path "PKG_CONFIG_PATH", HOMEBREW_LIBRARY/"Homebrew/os/mac/pkgconfig/fuse"
+    ENV.append_path "HOMEBREW_LIBRARY_PATHS", "/usr/local/lib"
+    ENV.append_path "HOMEBREW_INCLUDE_PATHS", "/usr/local/include/fuse"
   end
   
   depends_on "pkgconf" => :build
