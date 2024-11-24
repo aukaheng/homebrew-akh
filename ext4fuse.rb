@@ -4,6 +4,10 @@ class Ext4fuse < Formula
   url "https://github.com/gerard/ext4fuse/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "550f1e152c4de7d4ea517ee1c708f57bfebb0856281c508511419db45aa3ca9f"
 
+  env do
+    ENV.append_path "PKG_CONFIG_PATH", HOMEBREW_LIBRARY/"Homebrew/os/mac/pkgconfig/fuse"
+  end
+  
   depends_on "pkgconf" => :build
 
   def install
