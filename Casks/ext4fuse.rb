@@ -5,7 +5,6 @@ class Ext4fuse < Formula
   sha256 "550f1e152c4de7d4ea517ee1c708f57bfebb0856281c508511419db45aa3ca9f"
 
   depends_on "pkgconf" => :build
-  depends_on "libfuse@2"
 
   def install
     system "make"
