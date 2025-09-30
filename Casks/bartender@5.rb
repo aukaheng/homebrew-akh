@@ -1,7 +1,7 @@
 cask "bartender@5" do
-  version "5.5.3"
-  sha256 "36914ad41a5a95b5773f73f1fe862d3809c0c19e0c3f8efd7fb9b61ddb47fdcd"
-  url "https://www.macbartender.com/B2/updates/5-5-3/Bartender%205.dmg"
+  version "5.5.5"
+  sha256 "773CCB9A0E629F64C6B2C8610C7880B7D3FE9109EAFCDE8146B5BA0976C27452"
+  url "https://www.macbartender.com/B2/updates/5-5-5/Bartender%205.dmg"
   name "Bartender"
 
   app "Bartender 5.app"
