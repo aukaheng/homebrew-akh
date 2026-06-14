@@ -1,7 +1,7 @@
 cask "istat-menus@6" do
   version "6.73.1"
   sha256 "C0C34D4337F1498C6CBD6755FD2EF8B4B2CDEA466820F3E9E5975461D6F04FCD"
-  url "https://cdn.istatmenus.app/files/istatmenus6/istatmenus6.73.1.zip",
+  url "https://cdn.istatmenus.app/files/istatmenus6/istatmenus6.73.1.zip"
   name "iStats Menus"
 
   app "iStat Menus.app"
